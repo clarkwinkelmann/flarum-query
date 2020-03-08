@@ -3,6 +3,8 @@
 An attempt at bringing big data to Flarum.
 This tool let us analyze all extensions via SQL queries.
 
+Try it out at <https://query.flarum.dev/>
+
 Some example queries:
 
 ### Routes defined by multiple extensions

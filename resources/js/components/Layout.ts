@@ -56,6 +56,8 @@ export default class Layout implements m.Component {
                             table,
                             columns: schema[table],
                         })),
+                        m('p', ['The data is updated twice per day.']),
+                        m('p', ['The latest version of each extension is aliased with version ', m('code', 'latest'), ' for your convenience.']),
                     ] : [
                         m('p', 'The latest snippets shared by users'),
                         queries.map(query => m('.card.mt-2', m('.card-body', [

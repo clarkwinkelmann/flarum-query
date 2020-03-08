@@ -19,7 +19,7 @@
 </div>
 <div id="app" data-token="{{ csrf_token() }}" data-discuss="{{ config('app.discuss_url') }}" data-show-latest="{{ config('app.show_latest') }}" data-queries="{{ json_encode($queries) }}"></div>
 <footer>
-    <p class="text-center text-muted">Made and operated by <a href="https://clarkwinkelmann.com/">Clark Winkelmann</a> for the Flarum community. This service is not affiliated with the <a href="https://flarum.org/">Flarum Fundation</a>.</p>
+    <p class="text-center text-muted">Made and operated by <a href="https://clarkwinkelmann.com/">Clark Winkelmann</a> for the Flarum community. This service is not affiliated with the <a href="https://flarum.org/">Flarum Foundation</a>.</p>
 </footer>
 @include('analytics')
 <script src="{{ mix('js/app.js') }}"></script>
