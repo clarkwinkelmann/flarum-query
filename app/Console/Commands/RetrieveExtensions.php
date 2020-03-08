@@ -227,11 +227,11 @@ class RetrieveExtensions extends Command
                 $filename = substr($filename, strlen($rootDirectory));
             }
 
-            if (preg_match('~/dist/(admin|forum)\.js$~', $filename, $matches) === 1) {
+            if (preg_match('~dist/(admin|forum)\.js$~', $filename, $matches) === 1) {
                 $this->readJavascriptFile($package, $version, $filename, $zip->getFromIndex($fileIndex));
             }
 
-            if (preg_match('~/locales?/([^/]+)\.ya?ml$~', $filename, $matches) === 1) {
+            if (preg_match('~locales?/([^/]+)\.ya?ml$~', $filename, $matches) === 1) {
                 $this->readTranslationFile($package, $version, $filename, $locale ?? $matches[1], $zip->getFromIndex($fileIndex));
             }
 
