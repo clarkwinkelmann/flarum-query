@@ -40,7 +40,7 @@ export default {
         package: 'string',
         version: 'string',
         locale: 'string',
-        key: 'title',
+        title: 'string',
     },
     php_imports: {
         package: 'string',
