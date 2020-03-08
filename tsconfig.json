@@ -1,0 +1,6 @@
+{
+    "files": [
+        "resources/js/app.ts",
+        "resources/js/types.d.ts"
+    ]
+}
