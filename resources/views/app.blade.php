@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Clark Winkelmann">
     <meta name="description" content="Analyze Flarum extensions">
-    <title>Flarum Query</title>
+    <title>Flarum Query {{ $title ? ' - ' . $title : '' }}</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     {{--<link rel="icon" href="{{ mix('media/favicon.png') }}">--}}
 </head>
