@@ -3,6 +3,7 @@ import App from "../utils/App";
 import schema from "../schema";
 import SchemaTable from "./SchemaTable";
 import ResultsTable from "./ResultsTable";
+import Footer from "./Footer";
 
 export default class Layout implements m.Component {
     showDocs = true;
@@ -79,6 +80,7 @@ export default class Layout implements m.Component {
                     ],
                 ]),
             ])),
+            m(Footer),
         ]);
     }
 }
